@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 03-Abr-2023 às 23:01
+-- Generation Time: 03-Abr-2023 às 23:04
 -- Versão do servidor: 5.7.21
 -- PHP Version: 7.1.16
 
@@ -35,20 +35,6 @@ CREATE TABLE IF NOT EXISTS `aluno` (
   `periodo` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf16 COLLATE=utf16_bin;
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `alunos`
---
-
-DROP TABLE IF EXISTS `alunos`;
-CREATE TABLE IF NOT EXISTS `alunos` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `matricula` varchar(50) NOT NULL,
-  `nome` varchar(150) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
